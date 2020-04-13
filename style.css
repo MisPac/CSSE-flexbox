@@ -1,0 +1,222 @@
+.img {
+    width: 100%;
+}
+.hero {
+    background-image: url('./images/allie-smith-EGNT3umD-74-unsplash.jpg');
+    height: 60vh;
+    object-fit: contain;
+    background-size: cover;
+    align-items: center;
+    background-position: center center;
+}
+/* .profile__wrapper { 
+  display: flex;
+ } */
+.profile__img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     bottom: 160px;
+
+}
+
+.blog__title {
+    text-align: center;
+    position: relative;
+    bottom: 165px;
+    font-family: Gaegu;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.buns_of_steel {
+    text-align: center;
+    position: relative;
+    bottom: 165px;
+    font-family: Comic Neue;
+    font-size: 18px;
+}
+.seconds {
+    text-align: center;
+    position: relative;
+    font-family: Gaegu;
+    font-weight: 700;
+    font-size: 38px;
+    bottom: 10px;
+    color: crimson;
+}
+.profile__block {
+    position: relative;
+    bottom: 30px;
+   
+}
+.blog__info {
+    position: relative;
+    top: 25px;
+}
+.container {
+    margin: 0 auto;
+    padding: 030ps;
+    max-width: 1200px;
+}
+.featured-container {
+   position: relative;
+}
+.section {
+    margin-bottom: 90px;
+}
+.heading {
+    padding: 30px 0;
+}
+.title-one {
+    align-items: center;
+}
+.featured-post {
+    display: flex;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.20);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.bottom-post {
+    display: flex;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.20);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 40%;
+    
+}
+.img-wrapper {
+max-width: 150px;
+height: 150px;
+object-fit: cover;
+}
+.img-wrapper img {
+    height: 100%;
+}
+.bottom-img-wrapper {
+max-width: 150px;
+height: 250px;
+object-fit: cover;
+}
+.bottom-img-wrapper img {
+    height: 120%;
+}
+.content-wrapper {
+    padding-left: 25px;
+    
+}
+.bottom-content-wrapper {
+    padding-left: 25px; 
+}
+
+.recent-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative;
+    /* right: 100px; */
+   
+    
+}
+.recent-col {
+    width: 40%;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+.recent-col .featured-post {
+    margin: 15px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    top: 30px; 
+    right: 40px;  
+}
+
+.dough img {
+    position: relative;
+    height: 80px;
+    width: 80px;   
+}
+.recipes img {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    top: 3px;
+}
+ .seasonal img {
+    position: relative;
+    height: 85px;
+    width: 85px; 
+    top: 3px;  
+} 
+.icons__info {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 75px;
+    bottom: 33px;
+    font-family: Comic Neue;
+    font-weight: 600;
+}
+.st_force {
+    position: relative;
+    right: 25px;
+}
+
+.row {
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    justify-content: space-around;
+    padding: 10px;
+    /* /* box-shadow: 1px 1px 10px rgba(0,0,0,0.20); */
+    /* border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: 450px; */ 
+    /* flex-wrap: wrap; */
+    /* width: 100%; */   
+  
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 16px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.20);
+    border-radius: 5px;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
+    height: 450px;
+    justify-content: space-between;
+    
+   }
+.second_col {
+    position: relative;
+    bottom: 50px;
+    justify-content: space-around;
+}
+.col img {
+    /* object-fit: contain; */
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+}
+
+.image__wrapper {
+    height: 60%;
+    border-radius: 5px;
+    object-fit: contain;     
+}
+
